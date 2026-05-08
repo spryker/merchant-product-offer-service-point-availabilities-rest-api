@@ -1,0 +1,13 @@
+resource:
+    name: ProductOfferServicePointAvailabilities
+    shortName: product-offer-service-point-availabilities
+
+    properties:
+        merchantReference:
+            type: string
+            writable: true
+            readable: true
+            required: false
+            description: 'A unique reference identifier for a merchant'
+            openapiContext:
+                example: 'MER000001'
